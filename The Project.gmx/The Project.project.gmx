@@ -9,9 +9,10 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\hero_spr</sprite>
-    <sprite>sprites\infidel_spr</sprite>
+    <sprite>sprites\stabbyinfidel_spr</sprite>
     <sprite>sprites\arrow_spr</sprite>
     <sprite>sprites\infidelspawner_spr</sprite>
+    <sprite>sprites\walkinginfidel_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
