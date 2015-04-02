@@ -21,6 +21,7 @@
   <objects name="objects">
     <object>objects\obj_hero</object>
     <object>objects\obj_castle</object>
+    <object>objects\obj_weapon</object>
     <object>objects\obj_arrow</object>
     <object>objects\obj_infidel</object>
     <object>objects\Infidel_spawner</object>
