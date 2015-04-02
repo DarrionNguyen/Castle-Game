@@ -11,7 +11,9 @@
     <sprite>sprites\arrow_spr</sprite>
     <sprite>sprites\infidelspawner_spr</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\grass_bkgr</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_hero</object>
