@@ -6,8 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Hero</sprite>
+    <sprite>sprites\hero_spr</sprite>
     <sprite>sprites\infidel_spr</sprite>
+    <sprite>sprites\arrow_spr</sprite>
+    <sprite>sprites\infidelspawner_spr</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
