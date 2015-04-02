@@ -5,11 +5,19 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
-  </sprites>
+  <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_hero</object>
+    <object>objects\obj_castle</object>
+    <object>objects\obj_arrow</object>
+    <object>objects\obj_infidel</object>
+    <object>objects\Infidel_spawner</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
