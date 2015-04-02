@@ -8,23 +8,24 @@
     <sound>sound\Calm_Music</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\hero_spr</sprite>
-    <sprites name="Infidels">
-      <sprites name="stabby">
-        <sprite>sprites\stabbyinfidel_spr</sprite>
-        <sprite>sprites\walkinginfidel_spr</sprite>
-      </sprites>
-      <sprites name="exploding">
-        <sprite>sprites\walking_explodinginfidel_spr</sprite>
-        <sprite>sprites\explodinginfidel_spr</sprite>
+    <sprites name="terrorists">
+      <sprites name="shooting">
+        <sprite>sprites\terroristshooting_spr</sprite>
+        <sprite>sprites\spr_terroristwalking</sprite>
+        <sprite>sprites\spr_idleterrorist</sprite>
+        <sprite>sprites\spr_terroristdeath</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\arrow_spr</sprite>
-    <sprite>sprites\infidelspawner_spr</sprite>
     <sprites name="Marine">
       <sprite>sprites\marine_reloading_spr</sprite>
       <sprite>sprites\marine_shooting_spr</sprite>
     </sprites>
+    <sprites name="Hero">
+      <sprite>sprites\spr_heroshooting</sprite>
+      <sprite>sprites\spr_heroidle</sprite>
+      <sprite>sprites\spr_herowalking</sprite>
+    </sprites>
+    <sprite>sprites\spr_castle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
@@ -34,10 +35,8 @@
   <objects name="objects">
     <object>objects\obj_hero</object>
     <object>objects\obj_castle</object>
-    <object>objects\obj_weapon</object>
-    <object>objects\obj_arrow</object>
-    <object>objects\obj_infidel</object>
-    <object>objects\Infidel_spawner</object>
+    <object>objects\obj_terroristshooting</object>
+    <object>objects\terrorist_spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

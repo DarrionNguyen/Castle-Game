@@ -32,7 +32,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_infidel">
+    <event eventtype="4" ename="obj_terroristshooting">
       <action>
         <libid>1</libid>
         <id>203</id>
