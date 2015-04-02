@@ -9,10 +9,18 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\hero_spr</sprite>
-    <sprite>sprites\stabbyinfidel_spr</sprite>
+    <sprites name="Infidels">
+      <sprites name="stabby">
+        <sprite>sprites\stabbyinfidel_spr</sprite>
+        <sprite>sprites\walkinginfidel_spr</sprite>
+      </sprites>
+      <sprites name="exploding">
+        <sprite>sprites\walking_explodinginfidel_spr</sprite>
+        <sprite>sprites\explodinginfidel_spr</sprite>
+      </sprites>
+    </sprites>
     <sprite>sprites\arrow_spr</sprite>
     <sprite>sprites\infidelspawner_spr</sprite>
-    <sprite>sprites\walkinginfidel_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
