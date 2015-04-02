@@ -9,6 +9,7 @@
     <sound>sound\AK47fire</sound>
     <sound>sound\marinefire</sound>
     <sound>sound\reloadingsound</sound>
+    <sound>sound\mobdeath</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="terrorists">
@@ -17,6 +18,11 @@
         <sprite>sprites\spr_terroristwalking</sprite>
         <sprite>sprites\spr_idleterrorist</sprite>
         <sprite>sprites\spr_terroristdeath</sprite>
+      </sprites>
+      <sprites name="bomber">
+        <sprite>sprites\spr_idlebomber</sprite>
+        <sprite>sprites\spr_bomberwalking</sprite>
+        <sprite>sprites\spr_bomberdeath</sprite>
       </sprites>
     </sprites>
     <sprites name="Marine">
