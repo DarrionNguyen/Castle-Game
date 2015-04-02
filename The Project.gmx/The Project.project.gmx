@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\Hero</sprite>
+    <sprite>sprites\infidel_spr</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
