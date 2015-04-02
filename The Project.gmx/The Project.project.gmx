@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\Calm_Music</sound>
+    <sound>sound\AK47fire</sound>
+    <sound>sound\marinefire</sound>
+    <sound>sound\reloadingsound</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="terrorists">
@@ -18,7 +21,8 @@
     </sprites>
     <sprites name="Marine">
       <sprite>sprites\marine_reloading_spr</sprite>
-      <sprite>sprites\marine_shooting_spr</sprite>
+      <sprite>sprites\spr_marineshooting</sprite>
+      <sprite>sprites\spr_marineidle</sprite>
     </sprites>
     <sprites name="Hero">
       <sprite>sprites\spr_heroshooting</sprite>
