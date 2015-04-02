@@ -15,6 +15,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
