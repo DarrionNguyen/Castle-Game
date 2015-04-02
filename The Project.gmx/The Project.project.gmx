@@ -21,6 +21,10 @@
     </sprites>
     <sprite>sprites\arrow_spr</sprite>
     <sprite>sprites\infidelspawner_spr</sprite>
+    <sprites name="Marine">
+      <sprite>sprites\marine_reloading_spr</sprite>
+      <sprite>sprites\marine_shooting_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
