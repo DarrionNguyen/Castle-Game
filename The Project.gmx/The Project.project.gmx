@@ -77,7 +77,6 @@
     <object>objects\obj_level_1</object>
     <object>objects\obj_variables</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room1</room>
     <room>rooms\room2</room>
