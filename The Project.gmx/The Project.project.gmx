@@ -64,7 +64,7 @@
     <object>objects\obj_variables</object>
     <object>objects\obj_marine</object>
     <object>objects\obj_marine_bullet</object>
-    <object>objects\obj_attackspot</object>
+    <object>objects\obj_attack_spot</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
