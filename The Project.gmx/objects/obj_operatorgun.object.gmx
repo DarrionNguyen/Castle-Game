@@ -103,7 +103,7 @@ global.shooting = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>pointdir = point_direction(x,y,mouse_x,mouse_y)
+            <string>pointdir = point_direction(x,y,mouse_x,mouse_y)+180
 base_angle = obj_operatorhero
 delta = max(-minmaxangle, min(minmaxangle, angle_difference(pointdir, base_angle)))
 image_angle = scr_anglerotate(image_angle, base_angle+delta,rspeed)
