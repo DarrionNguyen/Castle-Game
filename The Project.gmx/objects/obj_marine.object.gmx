@@ -442,8 +442,48 @@ alarm[2] = 60
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>212</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>reloadingsound</sound>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>212</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_sound</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>6</kind>
+            <sound>marinefire</sound>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -488,6 +528,7 @@ reload = false
             <string>    reload = true      
     instance_create(x,y,obj_marine_bullet)
     sprite_index = marine_reloading_spr
+    audio_play_sound(reloadingsound,1,false)
     alarm[1] = 15
 </string>
           </argument>
@@ -514,6 +555,7 @@ reload = false
             <string>if shoot = true {
 sprite_index = spr_marineshooting
     alarm[0] = 3
+    audio_play_sound(marinefire,1,false)
     shoot = false
     reload = true
 }

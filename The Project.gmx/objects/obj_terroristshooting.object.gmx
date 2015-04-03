@@ -203,6 +203,7 @@ shooting = false
             <kind>1</kind>
             <string>if shooting = true {
     sprite_index = terroristshooting_spr
+    sound_loop(AK47fire)
 }
 instance_create(x,y,obj_attack_spot)
 </string>
