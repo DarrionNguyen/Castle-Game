@@ -21,6 +21,7 @@
       </sprites>
       <sprites name="bomber">
         <sprite>sprites\spr_idlebomber</sprite>
+        <sprite>sprites\spr_bomber_exploding</sprite>
         <sprite>sprites\spr_bomberwalking</sprite>
         <sprite>sprites\spr_bomberdeath</sprite>
       </sprites>
@@ -47,13 +48,17 @@
     <object>objects\obj_hero</object>
     <object>objects\obj_castle</object>
     <object>objects\obj_terroristshooting</object>
+    <object>objects\obj_bomber</object>
     <object>objects\terrorist_spawner</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_dead_terroristshooting</object>
+    <object>objects\obj_dead_terroristbomber</object>
     <object>objects\obj_variables</object>
+    <object>objects\obj_bomber_exploding</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
