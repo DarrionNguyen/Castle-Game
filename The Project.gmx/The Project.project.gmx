@@ -58,6 +58,9 @@
       <object>objects\obj_bullet</object>
       <object>objects\obj_operator_bullet</object>
       <object>objects\obj_castle</object>
+      <object>objects\obj_operatorhero</object>
+      <object>objects\obj_operatorgun</object>
+      <object>objects\obj_attack_spot</object>
     </objects>
     <objects name="g_terrorist">
       <object>objects\obj_terroristshooting</object>
@@ -66,15 +69,15 @@
       <object>objects\obj_dead_terroristbomber</object>
       <object>objects\obj_bomber_exploding</object>
     </objects>
-    <object>objects\terrorist_spawner</object>
+    <object>objects\waves</object>
+    <objects name="Helpers">
+      <object>objects\obj_marine_bullet</object>
+      <object>objects\obj_marine</object>
+    </objects>
+    <object>objects\obj_level_1</object>
     <object>objects\obj_variables</object>
-    <object>objects\obj_marine</object>
-    <object>objects\obj_marine_bullet</object>
-    <object>objects\obj_attack_spot</object>
-    <object>objects\obj_operatorhero</object>
-    <object>objects\obj_operatorgun</object>
-    <object>objects\obj_gunwall</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room1</room>
     <room>rooms\room2</room>
