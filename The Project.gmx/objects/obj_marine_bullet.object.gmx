@@ -26,8 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>if instance_exists(obj_attack_spot) {
-move_towards_point(instance_nearest(x,y,obj_attack_spot).x,instance_nearest(x,y,obj_attack_spot).y,15)
+move_towards_point(instance_nearest(x,y,obj_attack_spot).x,instance_nearest(x,y,obj_attack_spot).y,30)
 image_angle = direction
+}
+    else{
+        instance_destroy()
 }
 </string>
           </argument>
