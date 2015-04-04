@@ -33,6 +33,29 @@ minmaxangle = 75
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.shooting = false
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -50,9 +73,7 @@ minmaxangle = 75
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-global.shooting = false
-
+            <string>alarm[1] = 30
 </string>
           </argument>
         </arguments>
@@ -168,7 +189,7 @@ image_angle = scr_anglerotate(image_angle, base_angle+delta,rspeed)
             <string>if global.shooting = false {
     global.shooting = true
     sprite_index = spr_operatorgunshooting
-    alarm[0] = 5
+    alarm[0] = 10
 }
 </string>
           </argument>

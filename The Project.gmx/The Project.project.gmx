@@ -69,7 +69,6 @@
       <object>objects\obj_dead_terroristbomber</object>
       <object>objects\obj_bomber_exploding</object>
     </objects>
-    <object>objects\waves</object>
     <objects name="Helpers">
       <object>objects\obj_marine_bullet</object>
       <object>objects\obj_marine</object>
