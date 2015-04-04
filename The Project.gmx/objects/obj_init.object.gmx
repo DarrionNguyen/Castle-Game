@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,8 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-draw_healthbar(600,24,634,224,(global.health/global.healthmax)*100,c_black,c_red,c_green,3,true,true)
+            <string>global.device_w=display_get_width()
+global.device_h=display_get_height()
+global.width = 640
+global.height=round((global.device_w/global.device_h)*global.width)
+room_set_view(room_gameplay,0,1,0,0,global.width,global.height,0,0,global.device_w,global.device_h,global.width/2,global.height/2,-1,-1,obj_castle)
+room = room_gameplay
 </string>
           </argument>
         </arguments>

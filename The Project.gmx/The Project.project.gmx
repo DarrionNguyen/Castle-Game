@@ -75,9 +75,11 @@
     </objects>
     <object>objects\obj_level_1</object>
     <object>objects\obj_variables</object>
+    <object>objects\obj_init</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
+    <room>rooms\room_init</room>
+    <room>rooms\room_gameplay</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
