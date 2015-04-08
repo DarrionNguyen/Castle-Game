@@ -43,6 +43,14 @@
     </sprites>
     <sprite>sprites\spr_castle</sprite>
     <sprite>sprites\spr_bullets</sprite>
+    <sprite>sprites\sprite21</sprite>
+    <sprite>sprites\spr_levelselect</sprite>
+    <sprite>sprites\spr_levelselect_pressed</sprite>
+    <sprite>sprites\spr_level1</sprite>
+    <sprite>sprites\spr_level2</sprite>
+    <sprite>sprites\spr_level1_pressed</sprite>
+    <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\spr_back</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
@@ -73,13 +81,23 @@
       <object>objects\obj_marine_bullet</object>
       <object>objects\obj_marine</object>
     </objects>
-    <object>objects\obj_level_1</object>
+    <objects name="g_levels">
+      <object>objects\obj_level_1</object>
+    </objects>
     <object>objects\obj_variables</object>
     <object>objects\obj_init</object>
+    <object>objects\obj_levelselect</object>
+    <object>objects\obj_level1</object>
+    <object>objects\obj_level2</object>
+    <object>objects\obj_chetz</object>
+    <object>objects\obj_back</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_start</room>
+    <room>rooms\room_levelselect</room>
+    <room>rooms\room_level1</room>
+    <room>rooms\room_level2</room>
     <room>rooms\room_init</room>
-    <room>rooms\room_gameplay</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

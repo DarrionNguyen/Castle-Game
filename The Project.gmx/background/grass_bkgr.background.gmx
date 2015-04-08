@@ -13,7 +13,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>76</width>
-  <height>50</height>
+  <width>960</width>
+  <height>480</height>
   <data>images\grass_bkgr.png</data>
 </background>
