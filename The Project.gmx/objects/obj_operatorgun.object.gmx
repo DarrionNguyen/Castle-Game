@@ -73,7 +73,7 @@ minmaxangle = 75
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[1] = 15
+            <string>alarm[1] = 22
 </string>
           </argument>
         </arguments>
@@ -189,7 +189,7 @@ image_angle = scr_anglerotate(image_angle, base_angle+delta,rspeed)
             <string>if global.shooting = false {
     global.shooting = true
     sprite_index = spr_operatorgunshooting
-    alarm[0] = 10
+    alarm[0] = 3
 }
 </string>
           </argument>
