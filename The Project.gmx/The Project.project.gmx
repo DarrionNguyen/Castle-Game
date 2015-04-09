@@ -3,7 +3,9 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Display Engine</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sound>sound\Calm_Music</sound>
     <sound>sound\AK47fire</sound>
@@ -85,7 +87,6 @@
       <object>objects\obj_level_1</object>
     </objects>
     <object>objects\obj_variables</object>
-    <object>objects\obj_init</object>
     <object>objects\obj_levelselect</object>
     <object>objects\obj_level1</object>
     <object>objects\obj_level2</object>
@@ -97,7 +98,6 @@
     <room>rooms\room_levelselect</room>
     <room>rooms\room_level1</room>
     <room>rooms\room_level2</room>
-    <room>rooms\room_init</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
