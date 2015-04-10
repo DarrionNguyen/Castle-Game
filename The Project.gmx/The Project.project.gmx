@@ -51,12 +51,16 @@
     <sprite>sprites\spr_level1_pressed</sprite>
     <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_back</sprite>
+    <sprite>sprites\spr_sandbags</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
     <background>background\background1</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+    <path>paths\path1</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_anglerotate.gml</script>
   </scripts>
@@ -96,6 +100,7 @@
     <room>rooms\room_levelselect</room>
     <room>rooms\room_level1</room>
     <room>rooms\room_level2</room>
+    <room>rooms\room_shop</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
