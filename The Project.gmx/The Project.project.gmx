@@ -52,6 +52,7 @@
     <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_back</sprite>
     <sprite>sprites\spr_sandbags</sprite>
+    <sprite>sprites\sprite30</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
