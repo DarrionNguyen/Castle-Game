@@ -41,22 +41,28 @@
       <sprite>sprites\spr_operatorgunshooting</sprite>
       <sprite>sprites\spr_operatoridle</sprite>
     </sprites>
+    <sprites name="starting screen">
+      <sprite>sprites\spr_levelselect</sprite>
+      <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_button_template</sprite>
+      <sprite>sprites\spr_shop</sprite>
+      <sprite>sprites\spr_levelselect_pressed</sprite>
+      <sprite>sprites\spr_level1_pressed</sprite>
+      <sprite>sprites\spr_level1</sprite>
+      <sprite>sprites\spr_level2</sprite>
+    </sprites>
     <sprite>sprites\spr_castle</sprite>
     <sprite>sprites\spr_bullets</sprite>
-    <sprite>sprites\sprite21</sprite>
-    <sprite>sprites\spr_levelselect</sprite>
-    <sprite>sprites\spr_levelselect_pressed</sprite>
-    <sprite>sprites\spr_level1</sprite>
-    <sprite>sprites\spr_level2</sprite>
-    <sprite>sprites\spr_level1_pressed</sprite>
+    <sprite>sprites\spr_placement_area</sprite>
     <sprite>sprites\sprite27</sprite>
-    <sprite>sprites\spr_back</sprite>
     <sprite>sprites\spr_sandbags</sprite>
     <sprite>sprites\sprite30</sprite>
+    <sprite>sprites\spr_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
     <background>background\background1</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -90,11 +96,17 @@
       <object>objects\obj_level_1</object>
     </objects>
     <object>objects\obj_variables</object>
-    <object>objects\obj_levelselect</object>
-    <object>objects\obj_level1</object>
-    <object>objects\obj_level2</object>
-    <object>objects\obj_chetz</object>
-    <object>objects\obj_back</object>
+    <objects name="start screen">
+      <object>objects\obj_back</object>
+      <object>objects\obj_chetz</object>
+      <object>objects\obj_level2</object>
+      <object>objects\obj_levelselect</object>
+      <object>objects\obj_level1</object>
+    </objects>
+    <object>objects\obj_buy_soldier</object>
+    <object>objects\obj_buy_sandbag</object>
+    <object>objects\obj_shop</object>
+    <object>objects\obj_placement</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
