@@ -30,6 +30,7 @@
       <sprite>sprites\marine_reloading_spr</sprite>
       <sprite>sprites\spr_marineshooting</sprite>
       <sprite>sprites\spr_marineidle</sprite>
+      <sprite>sprites\spr_buy_marine</sprite>
       <sprite>sprites\spr_marine_bullet</sprite>
     </sprites>
     <sprites name="Hero">
@@ -58,6 +59,7 @@
     <sprite>sprites\spr_sandbags</sprite>
     <sprite>sprites\sprite30</sprite>
     <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\spr_shade_idle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
@@ -103,10 +105,9 @@
       <object>objects\obj_levelselect</object>
       <object>objects\obj_level1</object>
     </objects>
-    <object>objects\obj_buy_soldier</object>
     <object>objects\obj_buy_sandbag</object>
     <object>objects\obj_shop</object>
-    <object>objects\obj_placement</object>
+    <object>objects\obj_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
