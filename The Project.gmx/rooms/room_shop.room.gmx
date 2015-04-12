@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_buy_sandbag" x="796" y="152" name="inst_B357283F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_back" x="112" y="112" name="inst_1F92D301" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

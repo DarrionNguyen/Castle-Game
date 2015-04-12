@@ -108,6 +108,7 @@
     <object>objects\obj_buy_sandbag</object>
     <object>objects\obj_shop</object>
     <object>objects\obj_button</object>
+    <object>objects\object26</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
