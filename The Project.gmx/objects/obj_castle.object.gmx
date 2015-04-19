@@ -25,8 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.health = 1000
+            <string>
 global.healthmax = 1000
+global.health = global.healthmax
 </string>
           </argument>
         </arguments>

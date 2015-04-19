@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.level = 1
+globalvar gold 
 </string>
           </argument>
         </arguments>

@@ -31,6 +31,7 @@
       <sprite>sprites\spr_marineshooting</sprite>
       <sprite>sprites\spr_marineidle</sprite>
       <sprite>sprites\spr_buy_marine</sprite>
+      <sprite>sprites\spr_buythings</sprite>
       <sprite>sprites\spr_marine_bullet</sprite>
     </sprites>
     <sprites name="Hero">
@@ -72,6 +73,9 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_anglerotate.gml</script>
+    <script>scripts\scr_buy.gml</script>
+    <script>scripts\scr_troop_check.gml</script>
+    <script>scripts\scr_sell.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="g_hero">
@@ -116,6 +120,7 @@
     <room>rooms\room_level1</room>
     <room>rooms\room_level2</room>
     <room>rooms\room_shop</room>
+    <room>rooms\variables_screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
