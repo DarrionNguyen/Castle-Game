@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>character = 1
-
+            <string>globalvar character
 </string>
           </argument>
         </arguments>

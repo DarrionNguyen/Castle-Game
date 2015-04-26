@@ -3,7 +3,7 @@
   <spriteName>spr_sandbags</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,17 +25,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-/*
-0=shade
-1=marine
+            <string>/*
+0=marine
+1=shade
 */
 global.showtroops = true
-global.maxtroops = 1
-for (i = 0; i &lt; global.maxtroops; i +=1)
+global.maxbases = 4
+global.numbases = 2
+global.maxunits = 2
+for (i = 0; i &lt; global.maxbases; i +=1)
 {
-global.inventory[i] = -1
+    global.xposition[i] = -200*i
+    global.yposition[i] = -15
+    global.unit[i] = 0
 }
+
 
 </string>
           </argument>
@@ -61,16 +65,15 @@ global.inventory[i] = -1
             <kind>1</kind>
             <string>if (global.showtroops)
 {
-for (i = 0; i &lt; global.maxtroops; i += 1)
-{
-draw_sprite(spr_sandbags,0,x,y)
-    if (global.inventory[i] != -1)
-    {
-
-        draw_sprite(spr_buythings,global.inventory[i],x-55,y-15)
-        }
+    for (i = 0; i &lt; global.numbases; i += 1)
+    {  
+        draw_sprite(spr_buy,global.unit[i], x-20+global.xposition[i],
+                                            y-15+global.yposition[i])
+        draw_sprite(spr_sandbags,0, x+global.xposition[i],
+                                    y+global.yposition[i]) 
     }
 }
+    
 </string>
           </argument>
         </arguments>

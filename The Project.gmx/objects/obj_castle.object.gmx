@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>globalvar gold
 global.healthmax = 1000
 global.health = global.healthmax
 </string>

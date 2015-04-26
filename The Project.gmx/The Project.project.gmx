@@ -30,8 +30,9 @@
       <sprite>sprites\marine_reloading_spr</sprite>
       <sprite>sprites\spr_marineshooting</sprite>
       <sprite>sprites\spr_marineidle</sprite>
+      <sprite>sprites\spr_bought</sprite>
       <sprite>sprites\spr_buy_marine</sprite>
-      <sprite>sprites\spr_buythings</sprite>
+      <sprite>sprites\spr_buy</sprite>
       <sprite>sprites\spr_marine_bullet</sprite>
     </sprites>
     <sprites name="Hero">
@@ -61,6 +62,8 @@
     <sprite>sprites\sprite30</sprite>
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_shade_idle</sprite>
+    <sprite>sprites\spr_arrow</sprite>
+    <sprite>sprites\spr_arrow_flip</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\grass_bkgr</background>
@@ -73,9 +76,7 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_anglerotate.gml</script>
-    <script>scripts\scr_buy.gml</script>
-    <script>scripts\scr_troop_check.gml</script>
-    <script>scripts\scr_sell.gml</script>
+    <script>scripts\scr_change_unit.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="g_hero">
@@ -113,14 +114,16 @@
     <object>objects\obj_shop</object>
     <object>objects\obj_button</object>
     <object>objects\object26</object>
+    <object>objects\obj_arrow_left</object>
+    <object>objects\obj_arrow_right</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room7</room>
     <room>rooms\room_start</room>
     <room>rooms\room_levelselect</room>
     <room>rooms\room_level1</room>
     <room>rooms\room_level2</room>
     <room>rooms\room_shop</room>
-    <room>rooms\variables_screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
